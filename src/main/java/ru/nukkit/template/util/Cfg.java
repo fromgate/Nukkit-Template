@@ -6,13 +6,13 @@ import ru.nukkit.template.Template;
 public class Cfg extends SimpleConfig {
 
     @Path("general.language")
-    public static String language;
+    public String language;
 
     @Path("general.language-save")
-    public static boolean saveLanguage;
+    public boolean saveLanguage;
 
     @Path("general.debug")
-    public static boolean debugMode;
+    public boolean debugMode;
 
     public Cfg() {
         super(Template.getPlugin());
